@@ -1,7 +1,7 @@
 # All Work
 ## CLIP1
 **คลิปที่ 1 อธิบายคำสั่ง ADD ใน MIPs**
-![image](https://miro.medium.com/max/2540/1*a872k4tCRKED4kPHjpzCXg.png)
+![image](https://drive.google.com/drive/u/0/folders/1SKoOElkbFyqOBILla7F6RJLWR3o8LriN)
 ## CLIP2
 **คลิปที่ 2 อธิบายการทำงานของ CPU MIPs**
 ## CLIP3
