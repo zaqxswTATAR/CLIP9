@@ -1,7 +1,7 @@
 # All Work
 ## CLIP1
 **คลิปที่ 1 อธิบายคำสั่ง ADD ใน MIPs**
-![image] (file:///C:/Users/ACER/Desktop/CLIP9%20Image/CLIP1.jpg)
+![image](file:///C:/Users/ACER/Desktop/CLIP9%20Image/CLIP1.jpg)
 ## CLIP2
 **คลิปที่ 2 อธิบายการทำงานของ CPU MIPs**
 ## CLIP3
