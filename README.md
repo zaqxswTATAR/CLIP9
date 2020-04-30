@@ -25,6 +25,9 @@
 
 ## CLIP2
 **คลิปที่ 2 อธิบายการทำงานของ CPU MIPs**
+
+
+  เป็นคลิปอธิบายการทำงานของ CPU MIPs ซึ่งจะมีการแสดงให้เห็นทั้ง Machine language
 ## CLIP3
 **คลิปที่ 3 ความแตกต่างระหว่าง Single-cycle กับ Multi-cycle Processor**
 ## CLIP4
