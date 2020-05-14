@@ -15,20 +15,20 @@
 
   รวมกันทั้งหมด 32 bits การทำงานของคำสั่งคือจะนำข้อมูลที่เก็บใน Register Rs มาบวกกับ Register Rt แล้วนำค่าที่ได้ไปเก็บไว้ใน Register Rd
 
-<คลิปวิดีโอ> [CLIP1](https://youtu.be/5Rgjj3vCG_s)
+คลิปวิดีโอ: [CLIP1](https://youtu.be/5Rgjj3vCG_s)
 
 
 ## CLIP2
 **คลิปที่ 2 อธิบายการทำงานของ CPU MIPs**
 
   เป็นคลิปอธิบายการทำงานของ CPU MIPs ซึ่งจะมีการแสดงให้เห็นคำสั่งทั้งในรูปแบบ Machine language และ Assembly language
- 
+
 ![image](CLIP2-1.jpg)
 
   ในคลิปนี่้จะยกตัวอย่างการทำงานของคำสั่ง ADD มา โดยเริ่มจากเมื่อคอมพิวเตอร์เปิดเครื่องมา จะทำงานคำสั่งในตำแหน่ง 000000 ที่มีการสั่ง Jump ไปยังคำสั่งถัดไป
 แล้วก็จะทำงานทีละคำสั่งเรียงไปเรื่อยๆทีละขั้นตั้งแต่ lw add sw จนจบการทำงาน
 
-<คลิปวิดีโอ> [CLIP2](https://youtu.be/uHqFkaDj0BA)
+คลิปวิดีโอ: [CLIP2](https://youtu.be/uHqFkaDj0BA)
 
 ## CLIP3
 **คลิปที่ 3 ความแตกต่างระหว่าง Single-cycle กับ Multi-cycle Processor**
@@ -51,7 +51,7 @@
 
   และ Multi-cycle จะทำงานได้เร็วกว่า Single-cycle Processor
 
-<คลิปวิดีโอ> [CLIP3](https://youtu.be/EC8kAC64zO4)
+คลิปวิดีโอ: [CLIP3](https://youtu.be/EC8kAC64zO4)
 
 ## CLIP4
 **คลิปที่ 4 อธิบายการทำงานคำสั่ง lw ใน Multi-cycle Processor**
@@ -61,7 +61,7 @@
   เป็นคลิปอธิบายการทำงานของคำสั่ง lw ใน Multi-cycle Processor แบ่งเป็น 5 ขั้นตอน คือ T1.Fetch T2.Fetch+1 T3.Mem1 T4.Lw2 T5.Lw2+1
 โดยจะอธิบายเรียงไปเรื่อยๆตั้งแต่การดึง PC มาทำงาน ไปจนวนจบครบลูปการทำงาน
 
-<คลิปวิดีโอ> [CLIP4](https://youtu.be/JZhdv7kZJxI)
+คลิปวิดีโอ: [CLIP4](https://youtu.be/JZhdv7kZJxI)
 
 ## CLIP5
 **คลิปที่ 5 อธิบายการทำงานคำสั่ง beq ใน Multi-cycle Processor**
@@ -71,7 +71,7 @@
   เป็นคลิปอธิบายการทำงานของคำสั่ง beq ใน Multi-cycle Processor แบ่งเป็น 3 ขั้นตอน คือ T1.Fetch T2.Fetch+1 T3.Beq1
 โดยจะอธิบายเรียงไปเรื่อยๆตั้งแต่การดึง PC มาทำงาน ไปจนวนจบครบลูปการทำงาน
 
-<คลิปวิดีโอ> [CLIP5](https://youtu.be/RLFbzrB3c8o)
+คลิปวิดีโอ: [CLIP5](https://youtu.be/RLFbzrB3c8o)
 
 ## CLIP6
 **คลิปที่ 6 อธิบายคำสั่ง R-Type ใน state machine แบบ multicycle**
@@ -83,7 +83,7 @@
 ในขั้นตอน T1 จะมี MemRead=1 lorD=1(นำ PC ไปเก็บไว้ใน MemAddr) IRWrite=1(นำ Mem[PC] ไปเก็บไว้ที่ IR) ALUSrcA=0(ให้ A=PC) ALUSrcB=1(ให้ B=4)
 ALUOP=ADD(นำ PC+4 ไปเก็บเป็นค่า PC อีกที) PCWrite=1,PCSource=1(=ALU) เป็นต้น
 
-<คลิปวิดีโอ> [CLIP6](https://youtu.be/D7IzASGrkzw)
+คลิปวิดีโอ: [CLIP6](https://youtu.be/D7IzASGrkzw)
 
 ## CLIP7
 **คลิปที่ 7 อธิบายการทำงานแบบ Pipelining**
@@ -97,4 +97,4 @@ ALUOP=ADD(นำ PC+4 ไปเก็บเป็นค่า PC อีกที
 โดยหลักการทำงานนั้นจะเปรียบเทียบผ่านการซักผ้า คือ ในการซักผ้าที่มีหลายขั้นตอน ถ้าซักผ้าหลายถัง แล้วรอจบขั้นตอนทั้งหมดแล้วค่อยซักถังถัดไป ก็จะใช้เวลานาน
 แต่ถ้าระหว่างที่ถังหนึ่งเราซักเสร็จแล้ว ไปสู่ขั้นตอนการอบ ระหว่างที่เราอบอยู่ เราก็นำผ้าถังถัดไปมาซักเลย ก็จะลดระยะเวลาในการทำงานได้
 
-<คลิปวิดีโอ> [CLIP7](https://youtu.be/TmCCdlvf6eM)
+คลิปวิดีโอ: [CLIP7](https://youtu.be/TmCCdlvf6eM)
